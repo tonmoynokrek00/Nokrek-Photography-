@@ -1,12 +1,15 @@
-window.addEventListener("scroll", () => {
-    const hero = document.querySelector(".hero");
-    hero.style.backgroundPositionY = window.scrollY * 0.5 + "px";
-});
+window.addEventListener("scroll", function () {
 
-const images = document.querySelectorAll(".photos img");
+const header = document.querySelector(".header");
 
-images.forEach((img) => {
-    img.addEventListener("click", () => {
-        img.classList.toggle("zoom");
-    });
+if (window.scrollY > 80) {
+
+header.style.background = "rgba(0,0,0,.85)";
+
+} else {
+
+header.style.background = "rgba(0,0,0,.25)";
+
+}
+
 });
