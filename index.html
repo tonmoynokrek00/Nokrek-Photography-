@@ -4,59 +4,130 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nokrek Photography</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<header>
-    <nav>
-        <h2>Nokrek Photography</h2>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+<header class="header">
+
+<nav class="navbar">
+
+<div class="logo">
+Nokrek Photography
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
 </header>
 
-<section class="hero">
-    <div class="overlay">
-        <h1>Capture Every Moment</h1>
-        <p>Nature • Portrait • Cinematic</p>
-        <a href="#" class="btn">View Gallery</a>
-    </div>
+<section id="home" class="hero">
+
+<video autoplay muted loop playsinline>
+
+<source src="hero.mp4" type="video/mp4">
+
+</video>
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>Nokrek Photography</h1>
+
+<h2>By Tonmoy Nokrek</h2>
+
+<p>
+Capturing Stories Through The Lens
+</p>
+
+<a href="#gallery" class="btn">
+Explore Gallery
+</a>
+
+</div>
+
 </section>
 
-<section class="about">
-    <h2>About Me</h2>
-    <p>
-        Welcome to Nokrek Photography.
-        I capture beautiful moments, nature and cinematic stories.
-    </p>
+<section id="gallery">
+
+<h2 class="title">
+Gallery
+</h2>
+
+<div class="gallery">
+
+<!-- পরের ধাপে ছবি যোগ করব -->
+
+</div>
+
 </section>
 
-<section class="gallery">
-    <h2>Gallery</h2>
+<section id="about">
 
-    <div class="photos">
+<h2 class="title">
+About
+</h2>
 
-        <img src="https://picsum.photos/400/500?1">
-        <img src="https://picsum.photos/400/500?2">
-        <img src="https://picsum.photos/400/500?3">
-        <img src="https://picsum.photos/400/500?4">
-        <img src="https://picsum.photos/400/500?5">
-        <img src="https://picsum.photos/400/500?6">
+<p class="about-text">
 
-    </div>
+Hi, I'm Tonmoy Nokrek.
+
+Photography is more than a hobby for me.
+I love capturing nature,
+people,
+culture
+and unforgettable moments.
+
+Every image tells a story.
+
+</p>
+
 </section>
 
-<footer>
-<p>© 2026 Nokrek Photography</p>
-</footer>
+<section id="contact">
+
+<h2 class="title">
+
+Contact
+
+</h2>
+
+<a
+
+href="https://www.facebook.com/Nokrekphotographyx"
+
+target="_blank"
+
+class="facebook">
+
+Visit Facebook Page
+
+</a>
+
+</section>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
